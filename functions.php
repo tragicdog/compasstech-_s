@@ -113,7 +113,11 @@ add_action( 'widgets_init', 'compasstech_widgets_init' );
  */
 function compasstech_scripts() {
 	wp_enqueue_style( 'compasstech-style', get_stylesheet_uri() );
+        
+        wp_enqueue_style( 'compasstech-google-fonts', 'http://fonts.googleapis.com/css?family=Nixie+One|Poiret+One|Share:400,400italic,700italic,700' );
 
+        wp_enqueue_style( 'compasstech-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"' );
+        
 	wp_enqueue_script( 'compasstech-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'compasstech-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
