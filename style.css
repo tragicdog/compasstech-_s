@@ -271,9 +271,10 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-size: 16px;
-	font-size: 1rem;
+	color: #ffffff;
+        font-family: 'Poiret One', sans-serif;
+	font-size: 18px;
+	font-size: 1.2rem;
 	line-height: 1.5;
 }
 
@@ -283,7 +284,12 @@ h3,
 h4,
 h5,
 h6 {
-	clear: both;
+	clear: right;
+        font-weight: 700;
+        font-family: 'Share', serif;
+        font-size: 1.6rem;
+        color: #000;
+        color: hsl( 0, 0, 0% );
 }
 
 p {
