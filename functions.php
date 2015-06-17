@@ -60,21 +60,20 @@ function compasstech_setup() {
 	/*
 	 * Enable support for Post Formats.
 	 * See http://codex.wordpress.org/Post_Formats
-
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-	) );
-	*/
-
+         */
+//	add_theme_support( 'post-formats', array(
+//		'aside',
+//		'image',
+//		'video',
+//		'quote',
+//		'link',
+//	) );
+	
 	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'compasstech_custom_background_args', array(
-		'default-color' => '#808080',
-		'default-image' => '',
-	) ) );
+//	add_theme_support( 'custom-background', apply_filters( 'compasstech_custom_background_args', array(
+//		'default-color' => '#808080',
+//		'default-image' => '',
+//	) ) );
 }
 endif; // compasstech_setup
 add_action( 'after_setup_theme', 'compasstech_setup' );
@@ -87,7 +86,7 @@ add_action( 'after_setup_theme', 'compasstech_setup' );
  * @global int $content_width
  */
 function compasstech_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'compasstech_content_width', 960 );
+	$GLOBALS['content_width'] = apply_filters( 'compasstech_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'compasstech_content_width', 0 );
 
