@@ -313,6 +313,7 @@ address {
 
 pre {
 	background: #eee;
+	color: black;
 	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
