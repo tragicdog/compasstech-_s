@@ -722,6 +722,42 @@ a:active {
 }
 
 /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.site-branding {
+    background: #808080;
+    background: HSL( 0, 0%, 50%);
+}
+
+.site-title {
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0;
+}
+
+.site-title span {
+    color: orange;
+    text-transform: lowercase;
+}
+
+.site-description {
+    font-weight: 100;
+    font-size: 20px;
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.site-title a,
+.site-description {
+    color: #fff;
+    color: hsl( 0, 0%, 100% );
+}
+
+/*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 .widget {
