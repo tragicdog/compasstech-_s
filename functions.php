@@ -114,6 +114,8 @@ add_action( 'widgets_init', 'compasstech_widgets_init' );
 function compasstech_scripts() {
 	wp_enqueue_style( 'compasstech-style', get_stylesheet_uri() );
         
+        wp_enqueue_style( 'compasstech-content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css' );
+        
         wp_enqueue_style( 'compasstech-google-fonts', 'http://fonts.googleapis.com/css?family=Nixie+One|Poiret+One|Share:400,400italic,700italic,700' );
 
         wp_enqueue_style( 'compasstech-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"' );
