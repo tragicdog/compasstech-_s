@@ -55,7 +55,9 @@ html {
 }
 
 body {
-	margin: 0;
+	position: relative;
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 article,
@@ -729,6 +731,7 @@ a:active {
 .site-branding {
     background: #808080;
     background: HSL( 0, 0%, 50%);
+	text-align: center;
 }
 
 .site-title {
