@@ -563,15 +563,20 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+        font-size: 12px;
+        font-size: 1.2em;
+        padding: .40em;
+        font-weight: bold;
 }
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;
-	top: 1.5em;
+	/*top: 1.5em;*/
 	left: -999em;
 	z-index: 99999;
+        background: #808080;
 }
 
 .main-navigation ul ul ul {
@@ -589,6 +594,7 @@ a:active {
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
+    text-decoration: underline;
 }
 
 .main-navigation ul ul :hover > a,
@@ -612,6 +618,8 @@ a:active {
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a {
+    /*put stuff here to notify the current page location*/
+    text-decoration:line-through;
 }
 
 /* Small menu. */
@@ -739,7 +747,7 @@ a:active {
 .site-branding {
     background: #808080;
     background: HSL( 0, 0%, 50%);
-	text-align: center;
+    text-align: center;
 }
 
 .site-title {
