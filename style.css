@@ -778,6 +778,16 @@ a:active {
     color: hsl( 0, 0%, 100% );
 }
 
+.file-a-tech-request {
+    background: orange;
+    color: #808080;
+    text-align: center;
+    font-size: 14px;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Share', serif;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
