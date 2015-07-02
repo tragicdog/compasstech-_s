@@ -37,7 +37,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Footer
 # Widgets
 # Content
-    ## Posts and pages
+  ## Posts and pages
 	## Asides
 	## Comments
 # Infinite scroll
@@ -366,13 +366,6 @@ html {
 	box-sizing: inherit;
 }
 
-hr {
-    width:100%;
-    height:3px;
-    border: 0 none;
-    background: #fff
-}
-
 body {
 	background: #808080; /* Fallback for when there is no custom background color defined. */
 }
@@ -390,10 +383,11 @@ q {
 }
 
 hr {
-	background-color: #ccc;
+	background-color: white;
 	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
+	height: 10px;
+	margin-bottom: .5em;
+        width: 100%
 }
 
 ul,
@@ -538,6 +532,10 @@ a:active {
 	outline: 0;
 }
 
+.file-a-tech-request a{
+    color: #808080;
+    text-decoration: none;
+}
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -776,6 +774,16 @@ a:active {
 .site-description {
     color: #fff;
     color: hsl( 0, 0%, 100% );
+}
+
+.file-a-tech-request {
+    background: orange;
+    color: #808080;
+    text-align: center;
+    font-size: 14px;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Share', serif;
 }
 
 /*--------------------------------------------------------------

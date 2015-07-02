@@ -33,6 +33,7 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
                 <hr />
+                <div class="file-a-tech-request"><a href="http://compasstech.org/file-a-tech-request">File a Tech Request</a></div>
         </header><!-- #masthead -->
 
 	<div id="content" class="site-content">
