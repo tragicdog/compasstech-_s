@@ -812,6 +812,20 @@ a:active {
 .widget_search .search-submit {
 	display: none;
 }
+/*text widget*/
+.textwidget {
+	color: #080808;
+}
+
+.widget_pages ul {
+	margin: 0;
+	pading: 0 0 0 0;
+}
+
+.widget_meta ul {
+	margin: 0;
+	pading: 0 0 0 0;
+}
 
 /*--------------------------------------------------------------
 # Content
