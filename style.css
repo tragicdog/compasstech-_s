@@ -621,9 +621,16 @@ a:active {
 }
 
 /* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
+.menu-toggle, .main-navigation.toggled ul {
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 0px;
 }
 
 @media screen and (min-width: 37.5em) {
