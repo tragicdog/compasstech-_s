@@ -574,7 +574,7 @@ a:active {
 	/*top: 1.5em;*/
 	left: -999em;
 	z-index: 99999;
-        background: #808080;
+  background: #808080;
 }
 
 .main-navigation ul ul ul {
@@ -791,6 +791,7 @@ a:active {
     font-size: 1.4em;
     font-weight: bold;
     font-family: 'Share', serif;
+		width: 100%;
 }
 
 /*--------------------------------------------------------------
