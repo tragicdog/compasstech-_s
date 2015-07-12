@@ -276,7 +276,7 @@ input,
 select,
 textarea {
 	color: #ffffff;
-        font-family: 'Poiret One', sans-serif;
+  font-family: 'Poiret One', sans-serif;
 	font-size: 18px;
 	font-size: 1.2rem;
 	line-height: 1.5;
@@ -367,7 +367,7 @@ html {
 }
 
 body {
-	background: #808080; /* Fallback for when there is no custom background color defined. */
+	background: black; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
@@ -533,8 +533,12 @@ a:active {
 }
 
 .file-a-tech-request a{
-    color: #808080;
+    color: black;
     text-decoration: none;
+}
+
+.file-a-tech-request a:hover {
+	text-decoration: underline;
 }
 /*--------------------------------------------------------------
 ## Menus
@@ -574,7 +578,8 @@ a:active {
 	/*top: 1.5em;*/
 	left: -999em;
 	z-index: 99999;
-  background: #808080;
+  /* background: #808080; */
+	background: black;
 }
 
 .main-navigation ul ul ul {
@@ -750,8 +755,9 @@ a:active {
 # Header
 --------------------------------------------------------------*/
 .site-branding {
-    background: #808080;
-    background: HSL( 0, 0%, 50%);
+    /* background: #808080; */
+    /* background: HSL( 0, 0%, 50%); */
+		background: black;
     text-align: center;
 }
 
@@ -785,12 +791,13 @@ a:active {
 
 .file-a-tech-request {
     background: orange;
-    color: #808080;
+    color: black;
     text-align: center;
     font-size: 14px;
     font-size: 1.4em;
     font-weight: bold;
-    font-family: 'Share', serif;
+    /* font-family: 'Share', serif; */
+		font-family: 'Poiret One', sans-serif;
 		width: 100%;
 }
 
