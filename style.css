@@ -271,12 +271,19 @@ th {
 # Typography
 --------------------------------------------------------------*/
 body,
+	{
+	color: #ffffff;
+  font-family: 'Poiret One', sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.5
+}
 button,
 input,
 select,
 textarea {
-	color: #ffffff;
-  font-family: 'Poiret One', sans-serif;
+	color: black;
+	font-family: 'Poiret One', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
 	line-height: 1.5
