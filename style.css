@@ -500,6 +500,11 @@ textarea {
 	width: 100%;
 }
 
+/*Got the following code from https://wordpress.org/support/topic/responsiveness should work with contact form 7 plugin*/
+.wpcf7-form-control {
+	width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
