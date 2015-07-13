@@ -32,7 +32,7 @@
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'compasstech' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
-                <hr />
+                <br><br><hr />
                 <div class="file-a-tech-request"><a href="http://compasstech.org/file-a-tech-request">File a Tech Request</a></div>
         </header><!-- #masthead -->
 

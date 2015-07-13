@@ -4,7 +4,7 @@ Theme URI: http://compasstech.org
 Author: Jon Lillie
 Author URI: http://compasstech.org/
 Description: Compass Tech . org\'s site, a Ministry of Compass Bible Church
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: compasstech
@@ -558,7 +558,7 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-  	float: left;
+  float: left;
 	width: 100%;
 }
 
