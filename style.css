@@ -270,14 +270,15 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-body,
+body
 	{
 	color: #ffffff;
   font-family: 'Poiret One', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
-	line-height: 1.5
+	line-height: 1.5;
 }
+
 button,
 input,
 select,
@@ -286,7 +287,7 @@ textarea {
 	font-family: 'Poiret One', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
-	line-height: 1.5
+	line-height: 1.5;
 }
 
 h1,
@@ -296,11 +297,11 @@ h4,
 h5,
 h6 {
 	clear: right;
-        font-weight: 700;
-        font-family: 'Share', serif;
-        font-size: 1.6rem;
-        color: #000;
-        color: hsl( 0, 0, 0% );
+  font-weight: 700;
+	font-family: 'Share', serif;
+	font-size: 1.6rem;
+  color: #000;
+  color: hsl( 0, 0, 0% );
 }
 
 p {
@@ -394,7 +395,7 @@ hr {
 	border: 0;
 	height: 10px;
 	margin-bottom: .5em;
-        width: 100%
+  width: 100%;
 }
 
 ul,
@@ -808,7 +809,6 @@ a:active {
     font-size: 14px;
     font-size: 1.4em;
     font-weight: bold;
-    /* font-family: 'Share', serif; */
 		font-family: 'Poiret One', sans-serif;
 		width: 100%;
 }
@@ -841,7 +841,7 @@ a:active {
 }
 /*text widget*/
 .textwidget {
-	color: #080808;
+	color: #808080;
 }
 
 .widget_pages ul {
