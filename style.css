@@ -8,6 +8,8 @@ Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: compasstech
+GitHub Theme URI: tragicdog/compasstech-_s
+GitHub Theme URI: https://github.com/tragicdog/compasstech-_s
 Tags: responsive-layout
 
 This theme, like WordPress, is licensed under the GPL.
@@ -770,7 +772,7 @@ a:active {
 .site-branding {
     /* background: #808080; */
     /* background: HSL( 0, 0%, 50%); */
-		background: black;
+	background: black;
     text-align: center;
 }
 
@@ -781,6 +783,13 @@ a:active {
     text-transform: uppercase;
     line-height: normal;
     margin: 0;
+}
+
+@media screen and (max-width: 1199px){
+	.site-title {
+	width:auto;
+	max-width: 750px;
+	}
 }
 
 .site-title span {
