@@ -783,12 +783,13 @@ a:active {
     text-transform: uppercase;
     line-height: normal;
     margin: 0;
+		width: auto;
 }
 
 @media screen and (max-width: 1199px){
 	.site-title {
 	width:auto;
-	max-width: 750px;
+	/*max-width: 750px;*/
 	}
 }
 
