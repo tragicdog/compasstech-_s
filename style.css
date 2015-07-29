@@ -786,10 +786,10 @@ a:active {
 		width: auto;
 }
 
-@media screen and (max-width: 1199px){
+
+@media screen and (max-width: 756px){
 	.site-title {
-	width:auto;
-	/*max-width: 750px;*/
+		font-size: 48px;
 	}
 }
 
