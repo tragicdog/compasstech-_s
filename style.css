@@ -789,8 +789,13 @@ a:active {
 
 @media screen and (max-width: 756px){
 	.site-title {
+<<<<<<< Updated upstream
 		font-size: 48px;
 	}
+=======
+	width:auto;
+f	}
+>>>>>>> Stashed changes
 }
 
 .site-title span {
