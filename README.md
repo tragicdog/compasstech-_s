@@ -1,3 +1,6 @@
+I no longer work for Compass Bible Church, and they no longer use this theme for the CompassTech site. Since I'm no longer maintaining this theme it's now archived. 
+
+
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
 _s
